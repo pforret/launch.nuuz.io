@@ -1,0 +1,3 @@
+lines : 2
+secs : 4
+lines/sec : 0

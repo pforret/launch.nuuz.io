@@ -1,0 +1,46 @@
+initializing builder
+builder ready
+Vm password: 
+Grabbing terminal
+Ok
+c-----> Starting new deployment (launch.nuuz.io - master)
+-----> Fetching application code
+-----> Building new application
+-----> Copying new application
+sending incremental file list
+.blueprint
+draft.yaml
+.idea/
+.idea/.gitignore
+.idea/deployment.xml
+.idea/launch.nuuz.io.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/php.xml
+.idea/vcs.xml
+app/
+app/Website.php
+app/Http/
+app/Http/Controllers/
+app/Http/Controllers/WebsiteController.php
+app/Http/Requests/
+app/Http/Requests/WebsiteStoreRequest.php
+database/
+database/factories/
+database/factories/WebsiteFactory.php
+database/migrations/
+database/migrations/2020_04_17_153149_create_websites_table.php
+resources/
+resources/views/
+resources/views/website/
+resources/views/website/index.blade.php
+tests/
+tests/Feature/
+tests/Feature/Http/
+tests/Feature/Http/Controllers/
+tests/Feature/Http/Controllers/WebsiteControllerTest.php
+
+sent 23,916 bytes  received 388 bytes  48,608.00 bytes/sec
+total size is 22,195  speedup is 0.91
+-----> Build complete
+-----> Cleaning temporary files
