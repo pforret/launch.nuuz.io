@@ -1,0 +1,12 @@
+created:
+    - database/migrations/2020_04_17_153149_create_websites_table.php
+    - app/Website.php
+    - database/factories/WebsiteFactory.php
+    - app/Http/Controllers/WebsiteController.php
+    - app/Http/Requests/WebsiteStoreRequest.php
+    - resources/views/website/index.blade.php
+    - tests/Feature/Http/Controllers/WebsiteControllerTest.php
+updated:
+    - routes/web.php
+models:
+    Website: { title: 'string:200', url: 'string:200', timezone: 'string:100', best_time: 'string:100', url_time: 'string:200', best_day: integer, url_day: 'string:200', softdeletes: softDeletes }

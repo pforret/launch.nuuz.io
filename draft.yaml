@@ -1,0 +1,23 @@
+models:
+  Website:
+    title: string:200
+    url: string:200
+    timezone: string:100
+    best_time: string:100
+    url_time: string:200
+    best_day: integer
+    url_day: string:200
+    softDeletes
+
+
+controllers:
+  Website:
+    index:
+      query: all
+      render: website.index with:websites
+
+    store:
+      validate: title, url, timezone,
+      save: website
+      flash: website.title
+      redirect: website.index
