@@ -10,6 +10,9 @@
 ])
 
     @include('partials.websites')
+    @include('partials.about',[
+
+])
 
     https://medium.com/swlh/product-hunt-101-how-to-launch-your-product-from-early-idea-to-revenue-c3f01864cdde
 

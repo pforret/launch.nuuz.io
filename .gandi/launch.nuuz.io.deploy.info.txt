@@ -1,2 +1,2 @@
-lines : 5362
-secs : 94
+lines : 5471
+secs : 56

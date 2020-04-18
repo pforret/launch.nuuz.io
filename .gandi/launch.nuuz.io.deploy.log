@@ -8,62 +8,67 @@ Ok
 -----> Building new application
 Loading composer repositories with package information
 Installing dependencies from lock file
-Package operations: 55 installs, 0 updates, 0 removals
+Package operations: 60 installs, 0 updates, 0 removals
   - Installing doctrine/inflector (1.3.1): Loading from cache
   - Installing doctrine/lexer (1.2.0): Loading from cache
   - Installing dragonmantank/cron-expression (v2.3.0): Loading from cache
-  - Installing voku/portable-ascii (1.4.10): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (80%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
-  - Installing symfony/polyfill-ctype (v1.15.0): Downloading (connecting...)Downloading (0%)           Downloading (100%)
-  - Installing phpoption/phpoption (1.7.3): Downloading (connecting...)Downloading (0%)           Downloading (45%)Downloading (95%)Downloading (100%)
-  - Installing vlucas/phpdotenv (v4.1.4): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (100%)
-  - Installing symfony/css-selector (v5.0.7): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (30%)Downloading (35%)Downloading (65%)Downloading (70%)Downloading (95%)Downloading (100%)
+  - Installing voku/portable-ascii (1.4.10): Loading from cache
+  - Installing symfony/polyfill-ctype (v1.15.0): Loading from cache
+  - Installing phpoption/phpoption (1.7.3): Loading from cache
+  - Installing vlucas/phpdotenv (v4.1.4): Loading from cache
+  - Installing symfony/css-selector (v5.0.7): Loading from cache
   - Installing tijsverkoyen/css-to-inline-styles (2.2.2): Loading from cache
-  - Installing symfony/polyfill-mbstring (v1.15.0): Downloading (connecting...)Downloading (0%)           Downloading (30%)Downloading (45%)Downloading (75%)Downloading (100%)
-  - Installing symfony/var-dumper (v5.0.7): Downloading (connecting...)Downloading (0%)           Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (40%)Downloading (50%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (85%)Downloading (100%)
-  - Installing symfony/routing (v5.0.7): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (75%)Downloading (80%)Downloading (85%)Downloading (95%)Downloading (100%)
-  - Installing symfony/process (v5.0.7): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (25%)Downloading (30%)Downloading (70%)Downloading (75%)Downloading (100%)
-  - Installing symfony/polyfill-php72 (v1.15.0): Downloading (connecting...)Downloading (0%)           Downloading (80%)Downloading (100%)
-  - Installing symfony/polyfill-intl-idn (v1.15.0): Downloading (connecting...)Downloading (0%)           Downloading (45%)Downloading (90%)Downloading (100%)
-  - Installing symfony/mime (v5.0.7): Downloading (connecting...)Downloading (0%)           Downloading (15%)Downloading (20%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (50%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
-  - Installing symfony/polyfill-php73 (v1.15.0): Downloading (connecting...)Downloading (0%)           Downloading (65%)Downloading (100%)
-  - Installing symfony/http-foundation (v5.0.7): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (50%)Downloading (55%)Downloading (75%)Downloading (80%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
+  - Installing symfony/polyfill-mbstring (v1.15.0): Loading from cache
+  - Installing symfony/var-dumper (v5.0.7): Loading from cache
+  - Installing symfony/routing (v5.0.7): Loading from cache
+  - Installing symfony/process (v5.0.7): Loading from cache
+  - Installing symfony/polyfill-php72 (v1.15.0): Loading from cache
+  - Installing symfony/polyfill-intl-idn (v1.15.0): Loading from cache
+  - Installing symfony/mime (v5.0.7): Loading from cache
+  - Installing symfony/polyfill-php73 (v1.15.0): Loading from cache
+  - Installing symfony/http-foundation (v5.0.7): Loading from cache
   - Installing psr/event-dispatcher (1.0.0): Loading from cache
   - Installing symfony/event-dispatcher-contracts (v2.0.1): Loading from cache
-  - Installing symfony/event-dispatcher (v5.0.7): Downloading (connecting...)Downloading (0%)           Downloading (40%)Downloading (80%)Downloading (100%)
-  - Installing psr/log (1.1.3): Downloading (connecting...)Downloading (0%)           Downloading (25%)Downloading (50%)Downloading (75%)Downloading (95%)Downloading (100%)
-  - Installing symfony/error-handler (v5.0.7): Downloading (connecting...)Downloading (0%)           Downloading (10%)Downloading (15%)Downloading (25%)Downloading (35%)Downloading (45%)Downloading (50%)Downloading (60%)Downloading (70%)Downloading (85%)Downloading (95%)Downloading (100%)
-  - Installing symfony/http-kernel (v5.0.7): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (80%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
-  - Installing symfony/finder (v5.0.7): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (35%)Downloading (100%)
+  - Installing symfony/event-dispatcher (v5.0.7): Loading from cache
+  - Installing psr/log (1.1.3): Loading from cache
+  - Installing symfony/error-handler (v5.0.7): Loading from cache
+  - Installing symfony/http-kernel (v5.0.7): Loading from cache
+  - Installing symfony/finder (v5.0.7): Loading from cache
   - Installing psr/container (1.0.0): Loading from cache
   - Installing symfony/service-contracts (v2.0.1): Loading from cache
-  - Installing symfony/console (v5.0.7): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (80%)Downloading (90%)Downloading (95%)Downloading (100%)
-  - Installing symfony/polyfill-iconv (v1.15.0): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (50%)Downloading (55%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (95%)Downloading (100%)
+  - Installing symfony/console (v5.0.7): Loading from cache
+  - Installing symfony/polyfill-iconv (v1.15.0): Loading from cache
   - Installing egulias/email-validator (2.1.17): Loading from cache
   - Installing swiftmailer/swiftmailer (v6.2.3): Loading from cache
-  - Installing ramsey/collection (1.0.1): Downloading (connecting...)Downloading (0%)           Downloading (20%)Downloading (30%)Downloading (45%)Downloading (55%)Downloading (70%)Downloading (80%)Downloading (100%)
-  - Installing brick/math (0.8.15): Downloading (connecting...)Downloading (0%)           Downloading (30%)Downloading (35%)Downloading (65%)Downloading (95%)Downloading (100%)
-  - Installing ramsey/uuid (4.0.1): Downloading (connecting...)Downloading (0%)           Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (80%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
+  - Installing ramsey/collection (1.0.1): Loading from cache
+  - Installing brick/math (0.8.15): Loading from cache
+  - Installing ramsey/uuid (4.0.1): Loading from cache
   - Installing psr/simple-cache (1.0.1): Loading from cache
   - Installing opis/closure (3.5.1): Loading from cache
   - Installing symfony/translation-contracts (v2.0.1): Loading from cache
-  - Installing symfony/translation (v5.0.7): Downloading (connecting...)Downloading (0%)           Downloading (10%)Downloading (20%)Downloading (30%)Downloading (40%)Downloading (45%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (75%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
-  - Installing nesbot/carbon (2.32.2): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (80%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
+  - Installing symfony/translation (v5.0.7): Loading from cache
+  - Installing nesbot/carbon (2.32.2): Loading from cache
   - Installing monolog/monolog (2.0.2): Loading from cache
-  - Installing league/flysystem (1.0.67): Downloading (connecting...)Downloading (0%)           Downloading (15%)Downloading (20%)Downloading (35%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (75%)Downloading (90%)Downloading (100%)
-  - Installing league/commonmark (1.3.4): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (80%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
-  - Installing laravel/framework (v7.6.2): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (80%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
+  - Installing league/flysystem (1.0.67): Loading from cache
+  - Installing league/commonmark (1.3.4): Loading from cache
+  - Installing laravel/framework (v7.6.2): Loading from cache
   - Installing fideloper/proxy (4.3.0): Loading from cache
   - Installing asm89/stack-cors (1.3.0): Loading from cache
-  - Installing fruitcake/laravel-cors (v1.0.5): Downloading (connecting...)Downloading (0%)           Downloading (15%)Downloading (100%)
+  - Installing fruitcake/laravel-cors (v1.0.5): Loading from cache
+  - Installing guzzlehttp/promises (v1.3.1): Loading from cache
   - Installing ralouphie/getallheaders (3.0.3): Loading from cache
   - Installing psr/http-message (1.0.1): Loading from cache
   - Installing guzzlehttp/psr7 (1.6.1): Loading from cache
-  - Installing guzzlehttp/promises (v1.3.1): Loading from cache
-  - Installing guzzlehttp/guzzle (6.5.2): Loading from cache
-  - Installing nikic/php-parser (v4.4.0): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (80%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
+  - Installing nikic/php-parser (v4.4.0): Loading from cache
   - Installing dnoegel/php-xdg-base-dir (v0.1.1): Loading from cache
-  - Installing psy/psysh (v0.10.3): Downloading (connecting...)Downloading (0%)           Downloading (5%)Downloading (10%)Downloading (15%)Downloading (20%)Downloading (25%)Downloading (30%)Downloading (35%)Downloading (40%)Downloading (45%)Downloading (50%)Downloading (55%)Downloading (60%)Downloading (65%)Downloading (70%)Downloading (75%)Downloading (80%)Downloading (85%)Downloading (90%)Downloading (95%)Downloading (100%)
-  - Installing laravel/tinker (v2.4.0): Downloading (connecting...)Downloading (0%)           Downloading (100%)
+  - Installing psy/psysh (v0.10.3): Loading from cache
+  - Installing laravel/tinker (v2.4.0): Loading from cache
+  - Installing paragonie/random_compat (v9.99.99): Loading from cache
+  - Installing psr/cache (1.0.1): Downloading (connecting...)Downloading (0%)           Downloading (45%)Downloading (90%)Downloading (100%)
+  - Installing guzzlehttp/guzzle (6.5.2): Loading from cache
+  - Installing league/oauth2-client (2.4.1): Downloading (connecting...)Downloading (100%)         
+  - Installing softonic/guzzle-oauth2-middleware (1.3): Downloading (connecting...)Downloading (100%)         
+  - Installing softonic/graphql-client (1.2.0): Downloading (connecting...)Downloading (100%)         
 Generating optimized autoload files
 > Illuminate\Foundation\ComposerScripts::postAutoloadDump
 > @php artisan package:discover --ansi
@@ -74,6 +79,7 @@ Discovered Package: [32mnesbot/carbon[39m
 [32mPackage manifest generated successfully.[39m
 -----> Copying new application
 sending incremental file list
+./
 autoload.php
 asm89/
 asm89/stack-cors/
@@ -86,11 +92,6 @@ asm89/stack-cors/src/Asm89/Stack/
 asm89/stack-cors/src/Asm89/Stack/Cors.php
 asm89/stack-cors/src/Asm89/Stack/CorsService.php
 bin/
-bin/carbon -> ../nesbot/carbon/bin/carbon
-bin/commonmark -> ../league/commonmark/bin/commonmark
-bin/php-parse -> ../nikic/php-parser/bin/php-parse
-bin/psysh -> ../psy/psysh/bin/psysh
-bin/var-dump-server -> ../symfony/var-dumper/Resources/bin/var-dump-server
 brick/
 brick/math/
 brick/math/LICENSE
@@ -1853,6 +1854,48 @@ league/flysystem/src/Util/
 league/flysystem/src/Util/ContentListingFormatter.php
 league/flysystem/src/Util/MimeType.php
 league/flysystem/src/Util/StreamHasher.php
+league/oauth2-client/
+league/oauth2-client/CHANGELOG.md
+league/oauth2-client/CONTRIBUTING.md
+league/oauth2-client/CREDITS.md
+league/oauth2-client/LICENSE
+league/oauth2-client/README.PROVIDER-GUIDE.md
+league/oauth2-client/README.md
+league/oauth2-client/composer.json
+league/oauth2-client/src/
+league/oauth2-client/src/Grant/
+league/oauth2-client/src/Grant/AbstractGrant.php
+league/oauth2-client/src/Grant/AuthorizationCode.php
+league/oauth2-client/src/Grant/ClientCredentials.php
+league/oauth2-client/src/Grant/GrantFactory.php
+league/oauth2-client/src/Grant/Password.php
+league/oauth2-client/src/Grant/RefreshToken.php
+league/oauth2-client/src/Grant/Exception/
+league/oauth2-client/src/Grant/Exception/InvalidGrantException.php
+league/oauth2-client/src/OptionProvider/
+league/oauth2-client/src/OptionProvider/HttpBasicAuthOptionProvider.php
+league/oauth2-client/src/OptionProvider/OptionProviderInterface.php
+league/oauth2-client/src/OptionProvider/PostAuthOptionProvider.php
+league/oauth2-client/src/Provider/
+league/oauth2-client/src/Provider/AbstractProvider.php
+league/oauth2-client/src/Provider/GenericProvider.php
+league/oauth2-client/src/Provider/GenericResourceOwner.php
+league/oauth2-client/src/Provider/ResourceOwnerInterface.php
+league/oauth2-client/src/Provider/Exception/
+league/oauth2-client/src/Provider/Exception/IdentityProviderException.php
+league/oauth2-client/src/Token/
+league/oauth2-client/src/Token/AccessToken.php
+league/oauth2-client/src/Token/AccessTokenInterface.php
+league/oauth2-client/src/Token/ResourceOwnerAccessTokenInterface.php
+league/oauth2-client/src/Tool/
+league/oauth2-client/src/Tool/ArrayAccessorTrait.php
+league/oauth2-client/src/Tool/BearerAuthorizationTrait.php
+league/oauth2-client/src/Tool/GuardedPropertyTrait.php
+league/oauth2-client/src/Tool/MacAuthorizationTrait.php
+league/oauth2-client/src/Tool/ProviderRedirectTrait.php
+league/oauth2-client/src/Tool/QueryBuilderTrait.php
+league/oauth2-client/src/Tool/RequestFactory.php
+league/oauth2-client/src/Tool/RequiredParameterTrait.php
 monolog/
 monolog/monolog/
 monolog/monolog/CHANGELOG.md
@@ -3146,6 +3189,20 @@ opis/closure/src/SecurityException.php
 opis/closure/src/SecurityProvider.php
 opis/closure/src/SelfReference.php
 opis/closure/src/SerializableClosure.php
+paragonie/
+paragonie/random_compat/
+paragonie/random_compat/LICENSE
+paragonie/random_compat/build-phar.sh
+paragonie/random_compat/composer.json
+paragonie/random_compat/psalm-autoload.php
+paragonie/random_compat/psalm.xml
+paragonie/random_compat/dist/
+paragonie/random_compat/dist/random_compat.phar.pubkey
+paragonie/random_compat/dist/random_compat.phar.pubkey.asc
+paragonie/random_compat/lib/
+paragonie/random_compat/lib/random.php
+paragonie/random_compat/other/
+paragonie/random_compat/other/build_phar.php
 phpoption/
 phpoption/phpoption/
 phpoption/phpoption/LICENSE
@@ -3157,6 +3214,16 @@ phpoption/phpoption/src/PhpOption/None.php
 phpoption/phpoption/src/PhpOption/Option.php
 phpoption/phpoption/src/PhpOption/Some.php
 psr/
+psr/cache/
+psr/cache/CHANGELOG.md
+psr/cache/LICENSE.txt
+psr/cache/README.md
+psr/cache/composer.json
+psr/cache/src/
+psr/cache/src/CacheException.php
+psr/cache/src/CacheItemInterface.php
+psr/cache/src/CacheItemPoolInterface.php
+psr/cache/src/InvalidArgumentException.php
 psr/container/
 psr/container/.gitignore
 psr/container/LICENSE
@@ -3556,6 +3623,51 @@ ramsey/uuid/src/Type/TypeInterface.php
 ramsey/uuid/src/Validator/
 ramsey/uuid/src/Validator/GenericValidator.php
 ramsey/uuid/src/Validator/ValidatorInterface.php
+softonic/
+softonic/graphql-client/
+softonic/graphql-client/.gitignore
+softonic/graphql-client/.php_cs
+softonic/graphql-client/.scrutinizer.yml
+softonic/graphql-client/.travis.yml
+softonic/graphql-client/LICENSE
+softonic/graphql-client/README.md
+softonic/graphql-client/composer.json
+softonic/graphql-client/docker-compose.yml
+softonic/graphql-client/phpunit.xml
+softonic/graphql-client/build/
+softonic/graphql-client/build/.gitignore
+softonic/graphql-client/src/
+softonic/graphql-client/src/Client.php
+softonic/graphql-client/src/ClientBuilder.php
+softonic/graphql-client/src/Response.php
+softonic/graphql-client/src/ResponseBuilder.php
+softonic/graphql-client/tests/
+softonic/graphql-client/tests/ClientBuilderTest.php
+softonic/graphql-client/tests/ClientTest.php
+softonic/graphql-client/tests/ResponseBuilderTest.php
+softonic/guzzle-oauth2-middleware/
+softonic/guzzle-oauth2-middleware/.gitignore
+softonic/guzzle-oauth2-middleware/.php_cs
+softonic/guzzle-oauth2-middleware/.scrutinizer.yml
+softonic/guzzle-oauth2-middleware/.travis.yml
+softonic/guzzle-oauth2-middleware/CODEOWNERS
+softonic/guzzle-oauth2-middleware/LICENSE
+softonic/guzzle-oauth2-middleware/README.md
+softonic/guzzle-oauth2-middleware/composer.json
+softonic/guzzle-oauth2-middleware/docker-compose.yml
+softonic/guzzle-oauth2-middleware/phpunit.xml
+softonic/guzzle-oauth2-middleware/build/
+softonic/guzzle-oauth2-middleware/build/.gitignore
+softonic/guzzle-oauth2-middleware/src/
+softonic/guzzle-oauth2-middleware/src/AccessTokenCacheHandler.php
+softonic/guzzle-oauth2-middleware/src/AddAuthorizationHeader.php
+softonic/guzzle-oauth2-middleware/src/ClientBuilder.php
+softonic/guzzle-oauth2-middleware/src/RetryOnAuthorizationError.php
+softonic/guzzle-oauth2-middleware/tests/
+softonic/guzzle-oauth2-middleware/tests/AccessTokenCacheHandlerTest.php
+softonic/guzzle-oauth2-middleware/tests/AddAuthorizationHeaderTest.php
+softonic/guzzle-oauth2-middleware/tests/ClientBuilderTest.php
+softonic/guzzle-oauth2-middleware/tests/RetryOnAuthorizationErrorTest.php
 swiftmailer/
 swiftmailer/swiftmailer/
 swiftmailer/swiftmailer/.gitattributes
@@ -5231,8 +5343,8 @@ voku/portable-ascii/src/voku/helper/data/xfd.php
 voku/portable-ascii/src/voku/helper/data/xfe.php
 voku/portable-ascii/src/voku/helper/data/xff.php
 
-sent 17,829,984 bytes  received 89,154 bytes  762,516.51 bytes/sec
-total size is 17,516,570  speedup is 0.98
+sent 18,038,303 bytes  received 90,879 bytes  805,741.42 bytes/sec
+total size is 17,718,281  speedup is 0.98
 sending incremental file list
 .blueprint
 .gitignore
@@ -5241,13 +5353,11 @@ artisan
 composer.json
 composer.lock
 draft.yaml
-htdocs -> public
 package-lock.json
 package.json
 phpunit.xml
 server.php
 webpack.mix.js
-.gandi/
 .gandi/launch.nuuz.io.deploy.info.txt
 .gandi/launch.nuuz.io.deploy.log
 .gandi/launch.nuuz.io.push.info.txt
@@ -5261,14 +5371,11 @@ webpack.mix.js
 .idea/vcs.xml
 app/User.php
 app/Website.php
-app/Console/
 app/Console/Kernel.php
-app/Exceptions/
 app/Exceptions/Handler.php
 app/Http/Kernel.php
 app/Http/Controllers/Controller.php
 app/Http/Controllers/WebsiteController.php
-app/Http/Middleware/
 app/Http/Middleware/Authenticate.php
 app/Http/Middleware/CheckForMaintenanceMode.php
 app/Http/Middleware/EncryptCookies.php
@@ -5277,19 +5384,15 @@ app/Http/Middleware/TrimStrings.php
 app/Http/Middleware/TrustProxies.php
 app/Http/Middleware/VerifyCsrfToken.php
 app/Http/Requests/WebsiteStoreRequest.php
-app/Providers/
 app/Providers/AppServiceProvider.php
 app/Providers/AuthServiceProvider.php
 app/Providers/BroadcastServiceProvider.php
 app/Providers/EventServiceProvider.php
 app/Providers/RouteServiceProvider.php
-bootstrap/
 bootstrap/app.php
-bootstrap/cache/
 bootstrap/cache/.gitignore
 bootstrap/cache/packages.php
 bootstrap/cache/services.php
-config/
 config/app.php
 config/auth.php
 config/broadcasting.php
@@ -5310,53 +5413,59 @@ database/factories/WebsiteFactory.php
 database/migrations/2014_10_12_000000_create_users_table.php
 database/migrations/2019_08_19_000000_create_failed_jobs_table.php
 database/migrations/2020_04_17_153149_create_websites_table.php
-database/seeds/
 database/seeds/DatabaseSeeder.php
-public/
 public/.htaccess
 public/favicon.ico
 public/index.php
 public/robots.txt
-resources/js/
+public/assets/
+public/assets/img/
+public/assets/img/bg-masthead.jpg
+public/css/
+public/css/site.css
+public/css/styles.css
 resources/js/app.js
 resources/js/bootstrap.js
-resources/lang/
-resources/lang/en/
 resources/lang/en/auth.php
 resources/lang/en/pagination.php
 resources/lang/en/passwords.php
 resources/lang/en/validation.php
-resources/sass/
 resources/sass/app.scss
 resources/views/welcome.blade.php
+resources/views/layouts/
+resources/views/layouts/bootstrap.blade.php
+resources/views/layouts/laravel.blade.php
+resources/views/partials/
+resources/views/partials/about.blade.php
+resources/views/partials/contact.blade.php
+resources/views/partials/cta.blade.php
+resources/views/partials/footer.blade.php
+resources/views/partials/head.blade.php
+resources/views/partials/masthead.blade.php
+resources/views/partials/nav.blade.php
+resources/views/partials/portfolio.blade.php
+resources/views/partials/services.blade.php
+resources/views/partials/website.blade.php
+resources/views/partials/websites.blade.php
 resources/views/website/index.blade.php
-routes/
 routes/api.php
 routes/channels.php
 routes/console.php
 routes/web.php
-storage/
-storage/app/
 storage/app/.gitignore
-storage/app/public/
 storage/app/public/.gitignore
-storage/framework/
+storage/debugbar/
+storage/debugbar/.gitignore
 storage/framework/.gitignore
-storage/framework/cache/
 storage/framework/cache/.gitignore
-storage/framework/cache/data/
 storage/framework/cache/data/.gitignore
-storage/framework/sessions/
 storage/framework/sessions/.gitignore
-storage/framework/testing/
 storage/framework/testing/.gitignore
-storage/framework/views/
 storage/framework/views/.gitignore
-storage/logs/
 storage/logs/.gitignore
 tests/Feature/Http/Controllers/WebsiteControllerTest.php
 
-sent 814,211 bytes  received 1,959 bytes  1,632,340.00 bytes/sec
-total size is 806,024  speedup is 0.99
+sent 1,943,505 bytes  received 2,248 bytes  1,297,168.67 bytes/sec
+total size is 1,933,727  speedup is 0.99
 -----> Build complete
 -----> Cleaning temporary files
