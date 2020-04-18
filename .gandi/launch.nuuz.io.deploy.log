@@ -5343,7 +5343,7 @@ voku/portable-ascii/src/voku/helper/data/xfd.php
 voku/portable-ascii/src/voku/helper/data/xfe.php
 voku/portable-ascii/src/voku/helper/data/xff.php
 
-sent 18,038,299 bytes  received 90,975 bytes  843,222.05 bytes/sec
+sent 18,038,285 bytes  received 90,979 bytes  843,221.58 bytes/sec
 total size is 17,718,281  speedup is 0.98
 sending incremental file list
 .blueprint
@@ -5421,15 +5421,12 @@ public/robots.txt
 public/assets/img/bg-masthead-old.jpg
 public/assets/img/bg-masthead.jpg
 public/assets/img/favicon.ico
-public/assets/img/portfolio/
-public/assets/img/portfolio/fullsize/
 public/assets/img/portfolio/fullsize/1.jpg
 public/assets/img/portfolio/fullsize/2.jpg
 public/assets/img/portfolio/fullsize/3.jpg
 public/assets/img/portfolio/fullsize/4.jpg
 public/assets/img/portfolio/fullsize/5.jpg
 public/assets/img/portfolio/fullsize/6.jpg
-public/assets/img/portfolio/thumbnails/
 public/assets/img/portfolio/thumbnails/1.jpg
 public/assets/img/portfolio/thumbnails/2.jpg
 public/assets/img/portfolio/thumbnails/3.jpg
@@ -5438,7 +5435,6 @@ public/assets/img/portfolio/thumbnails/5.jpg
 public/assets/img/portfolio/thumbnails/6.jpg
 public/css/site.css
 public/css/styles.css
-public/js/
 public/js/luxon.min.js
 public/js/moment-timezone-with-data-10-year-range.js
 public/js/moment.js
@@ -5481,7 +5477,7 @@ storage/framework/views/.gitignore
 storage/logs/.gitignore
 tests/Feature/Http/Controllers/WebsiteControllerTest.php
 
-sent 3,406,596 bytes  received 2,592 bytes  2,272,792.00 bytes/sec
-total size is 3,395,324  speedup is 1.00
+sent 3,407,871 bytes  received 2,580 bytes  2,273,634.00 bytes/sec
+total size is 3,396,618  speedup is 1.00
 -----> Build complete
 -----> Cleaning temporary files
