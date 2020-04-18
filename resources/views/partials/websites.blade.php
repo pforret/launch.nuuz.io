@@ -62,6 +62,23 @@ $websites['bp']=array(
     'best_day'	=>	'1',
 );
 
+/*
+$websites['ln']=array(
+    'name'	=>	'LaunchingNext',
+    'description'   =>  'Launching Next is home to more than 5,000 new startups, startup ideas and great business ideas. They showcase startups to their thousands of readers',
+    'url'	=>	'https://www.launchingnext.com/',
+    'logo'	=>	'https://www.launchingnext.com/images/favicon.ico',
+    'explain_text'  => 'Choose a Monday or Tuesday',
+    'explain_url'   => 'https://medium.com/startup-frontier/how-we-got-1-000-beta-signups-in-2-weeks-the-blueprint-eb794cf718f1',
+    'city'	=>	'Indore, India',
+    'tz'	=>	'Asia/Kolkata',
+    'best_time'	=>	'09:00',
+    'best_day'	=>	'1',
+);
+*/
+
+
+
 @endphp
 <section class="page-section bg-primary" id="countdown">
 @foreach($websites as $code => $website)
