@@ -1,12 +1,16 @@
 @php
 $links=[];
 $links[]=[
-    'name'  =>  'About',
-    'url'  =>  '#about'
+    'name'  =>  'Launch times',
+    'url'  =>  '#sites'
 ];
 $links[]=[
-    'name'  =>  'Launch sites',
-    'url'  =>  '#websites'
+    'name'  =>  'Articles',
+    'url'  =>  '#articles'
+];
+$links[]=[
+    'name'  =>  'Startup nuuz',
+    'url'  =>  'https://nuuz.io/startup'
 ];
 @endphp
 

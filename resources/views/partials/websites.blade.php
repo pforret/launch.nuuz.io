@@ -80,7 +80,7 @@ $websites['ln']=array(
 
 
 @endphp
-<section class="page-section bg-primary" id="countdown">
+<section class="page-section bg-primary" id="sites">
 @foreach($websites as $code => $website)
     @php($website['block_id']=substr(sha1($website['url']),0,8))
     @include('partials.website',$website)

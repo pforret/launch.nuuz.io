@@ -5343,7 +5343,7 @@ voku/portable-ascii/src/voku/helper/data/xfd.php
 voku/portable-ascii/src/voku/helper/data/xfe.php
 voku/portable-ascii/src/voku/helper/data/xff.php
 
-sent 18,038,285 bytes  received 90,979 bytes  843,221.58 bytes/sec
+sent 18,038,298 bytes  received 91,011 bytes  805,747.07 bytes/sec
 total size is 17,718,281  speedup is 0.98
 sending incremental file list
 .blueprint
@@ -5477,7 +5477,7 @@ storage/framework/views/.gitignore
 storage/logs/.gitignore
 tests/Feature/Http/Controllers/WebsiteControllerTest.php
 
-sent 3,407,871 bytes  received 2,580 bytes  2,273,634.00 bytes/sec
-total size is 3,396,618  speedup is 1.00
+sent 3,408,465 bytes  received 2,580 bytes  6,822,090.00 bytes/sec
+total size is 3,397,159  speedup is 1.00
 -----> Build complete
 -----> Cleaning temporary files
