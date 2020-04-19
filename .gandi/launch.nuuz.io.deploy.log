@@ -5343,7 +5343,7 @@ voku/portable-ascii/src/voku/helper/data/xfd.php
 voku/portable-ascii/src/voku/helper/data/xfe.php
 voku/portable-ascii/src/voku/helper/data/xff.php
 
-sent 18,038,298 bytes  received 91,011 bytes  805,747.07 bytes/sec
+sent 18,038,292 bytes  received 90,979 bytes  843,221.91 bytes/sec
 total size is 17,718,281  speedup is 0.98
 sending incremental file list
 .blueprint
@@ -5450,6 +5450,7 @@ resources/views/welcome.blade.php
 resources/views/layouts/bootstrap.blade.php
 resources/views/layouts/laravel.blade.php
 resources/views/partials/about.blade.php
+resources/views/partials/articles.blade.php
 resources/views/partials/contact.blade.php
 resources/views/partials/cta.blade.php
 resources/views/partials/footer.blade.php
@@ -5477,7 +5478,7 @@ storage/framework/views/.gitignore
 storage/logs/.gitignore
 tests/Feature/Http/Controllers/WebsiteControllerTest.php
 
-sent 3,408,465 bytes  received 2,580 bytes  6,822,090.00 bytes/sec
-total size is 3,397,159  speedup is 1.00
+sent 3,409,411 bytes  received 2,599 bytes  6,824,020.00 bytes/sec
+total size is 3,398,105  speedup is 1.00
 -----> Build complete
 -----> Cleaning temporary files
