@@ -7,6 +7,12 @@ $articles[]=[
     'date' =>  '2023-11-28'
 ];
 $articles[]=[
+    'title' => '150+ places to launch your product',
+    'url'   =>  'https://www.linkedin.com/pulse/150-places-launch-your-product-pascal-unger/',
+    'date' =>  '2023-05-15',
+    'icon' => '<i class="fas fa-rocket"></i>',
+];
+$articles[]=[
     'title' => 'A Step-By-Step Guide On How To Get 1000 Users',
     'url'   =>  'https://userbooster.co/blog/get-1000-first-users-startup/',
     'icon' => '<i class="fas fa-rocket"></i>',
@@ -60,7 +66,6 @@ $articles[]=[
     'icon' => '<img src="/assets/logo/betalist.png" style="max-width: 16px">',
 ];
 
-
 @endphp
 
 <div class="container" id="articles">
@@ -69,7 +74,7 @@ $articles[]=[
                 <h2 class="text-secondary mt-0">Articles to read</h2>
                 <hr class="divider light my-4" />
                 @foreach($articles as $article)
-                <p class="text-secondary mb-2">&bull; {!! $article['icon'] ?? "" !!} <a href='{{$article['url']}}'>{{$article['title']}}</a> {{$article['date'] ?? ""}}</p>
+                <p class="text-secondary mb-2">&bull; {!! $article['icon'] ?? "" !!} <a href='{{$article['url']}}'>{{$article['title']}}</a> <small>{{$article['date'] ?? ""}}</small></p>
                     @endforeach
             </div>
         </div>
