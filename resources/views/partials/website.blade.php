@@ -13,7 +13,7 @@ $clock_id='count_' . $block_id;
                 <p class="text-white" style="font-size: .8em"><i class="fas fa-info-circle"></i> {{$description}}</p>
                 <p class="text-white" style="font-size: .8em"><i class="fas fa-clock"></i> Company is based in <strong>{{$city}}</strong></p>
                 @if(isset($explain_text))
-                <p class="text-white" style="font-size: .8em"><i class="fas fa-rocket"></i> Best time: &quot;<a class="text-white" href="{{$explain_url}}">{{$explain_text}}</a>&quot;</p>
+                <p class="text-white" style="font-size: .8em"><i class="fas fa-rocket"></i> Best time: &quot;<i><a class="text-white" href="{{$explain_url}}">{{$explain_text}}</a></i>&quot;</p>
                 @endif
                 <p class="text-white" style="font-size: .8em"><i class="fas fa-globe-europe"></i> <a href="{{$traffic_url}}"><code class="text-white">{{$traffic_text}}</code></a></p>
             </div>

@@ -5,13 +5,13 @@ $websites['rd']=array(
     'description'   =>  'Reddit is a network of communities based on people\'s interests',
     'url'	=>	'https://www.reddit.com/',
     'logo'	=>	'/assets/logo/reddit.png',
-    'explain_text'  => 'Thursday at 9AM or 12PM, Saturday at 9AM',
+    'explain_text'  => 'Wednesday at 2AM',
     'explain_url'   => 'https://dashboard.laterforreddit.com/analysis/?subreddit=hackernews&threshold=5',
     'city'	=>	'San Francisco',
     'tz'	=>	'America/Los_Angeles',
-    'best_time'	=>	'09:00',
-    'best_day'	=>	'4',
-    'traffic_text'  => '1.9B visitors/month, 50% USA, 7% UK, 7% Canada, 4% Australia',
+    'best_time'	=>	'02:00',
+    'best_day'	=>	'3',
+    'traffic_text'  => '1.9B visitors/month',
     'traffic_url'   => 'https://www.similarweb.com/website/reddit.com'
 );
 $websites['hn']=array(
@@ -25,7 +25,7 @@ $websites['hn']=array(
     'tz'	=>	'America/Los_Angeles',
     'best_time'	=>	'00:01',
     'best_day'	=>	'7',
-    'traffic_text'  => '10.7M visitors/month, 42% USA, 6% China, 5% UK, 5% Canada',
+    'traffic_text'  => '10.7M visitors/month',
     'traffic_url'   => 'https://www.similarweb.com/website/news.ycombinator.com'
 );
 $websites['at']=array(
@@ -39,7 +39,7 @@ $websites['at']=array(
     'tz'	=>	'Europe/Stockholm',
     'best_time'	=>	'09:00',
     'best_day'	=>	'1',
-    'traffic_text'  => '5.3M visitors/month, 18% USA, 5% Germany, 5% France, 5% India',
+    'traffic_text'  => '5.3M visitors/month',
     'traffic_url'   => 'https://www.similarweb.com/website/alternativeto.net'
 );
 $websites['ph']=array(
@@ -53,8 +53,22 @@ $websites['ph']=array(
     'tz'	=>	'America/Los_Angeles',
     'best_time'	=>	'00:01',
     'best_day'	=>	'7',
-    'traffic_text'  => '4.4M visitors/month, 28% USA, 6% India, 6% China, 5% UK',
+    'traffic_text'  => '4.4M visitors/month',
     'traffic_url'   => 'https://www.similarweb.com/website/producthunt.com'
+);
+$websites['ih']=array(
+    'name'	=>	'IndieHackers',
+    'description'   =>  'Learn from the founders behind hundreds of profitable online businesses, and connect with others who are starting and growing their own companies',
+    'url'	=>	'https://www.indiehackers.com/',
+    'logo'	=>	'/assets/logo/indiehackers.png',
+    'explain_text'  => 'To directly answer your title: yesterday. The best time to post an article is yesterday but today will do fine. ',
+    'explain_url'   => 'https://www.indiehackers.com/post/in-your-opinion-what-is-the-right-way-to-launch-on-product-hunt-c90a0f94c8',
+    'city'	=>	'San Francisco',
+    'tz'	=>	'America/Los_Angeles',
+    'best_time'	=>	"00:01",
+    'best_day'	=>	date("N",strtotime("now + 1 day")),
+    'traffic_text'  => '858K visitors/month',
+    'traffic_url'   => 'https://www.similarweb.com/website/indiehackers.com'
 );
 $websites['bl']=array(
     'name'	=>	'BetaList',
@@ -67,7 +81,7 @@ $websites['bl']=array(
     'tz'	=>	'Europe/Amsterdam',
     'best_time'	=>	'09:00',
     'best_day'	=>	'1',
-    'traffic_text'  => '161K visitors/month, 21% USA, 9% India, 8% UK, 5% Italy',
+    'traffic_text'  => '161K visitors/month',
     'traffic_url'   => 'https://www.similarweb.com/website/betalist.com'
 );
 
@@ -82,7 +96,7 @@ $websites['ln']=array(
     'tz'	=>	'Asia/Kolkata',
     'best_time'	=>	'09:00',
     'best_day'	=>	'2',
-    'traffic_text'  => '45K visitors/month, 18% India, 13% USA, 6% France, 5% Brasil',
+    'traffic_text'  => '45K visitors/month',
     'traffic_url'   => 'https://www.similarweb.com/website/launchingnext.com/'
 );
 
@@ -97,7 +111,7 @@ $websites['bp']=array(
     'tz'	=>	'Asia/Kolkata',
     'best_time'	=>	'09:00',
     'best_day'	=>	'2',
-    'traffic_text'  => '27K visitors/month, 18% India, 13% USA, 6% France, 5% Brasil',
+    'traffic_text'  => '27K visitors/month',
     'traffic_url'   => 'https://www.similarweb.com/website/pitchwall.co/'
 );
 
