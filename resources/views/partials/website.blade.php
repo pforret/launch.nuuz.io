@@ -8,7 +8,7 @@ $clock_id='count_' . $block_id;
     <div class="container border-info" id="{{$clock_id}}">
         <div class="row justify-content-center">
             <div class="col-lg-6 text-left">
-                <img src="{{$logo}}" class="float-left mx-2 bg-white" style="height: 32px; border: 1px solid #ffffff">
+                <img src="{{$logo}}" class="float-left mx-2 bg-white" style="height: 32px; border: 1px solid #ffffff" alt="">
                 <a href="{{$url}}"><h2 class="text-white mt-0">{{$name}}</h2></a>
                 <p class="text-white" style="font-size: .8em"><i class="fas fa-info-circle"></i> {{$description}}</p>
                 <p class="text-white" style="font-size: .8em"><i class="fas fa-clock"></i> Company is based in <strong>{{$city}}</strong></p>
@@ -36,10 +36,10 @@ $clock_id='count_' . $block_id;
 
                     document.write("<br><i class=\"fas fa-clock\"></i> Time there now: " + tThere.toLocaleString(DateTime.TIME_SIMPLE) + "<br>");
                     document.write("<br><strong>BEST LAUNCH TIMES</strong>");
-                    if(tLaunch1.diff(tThere).as('hours') > 1){
+                    if(tLaunch1.diff(tThere).as('hours') > 4){
                         document.write("<br><i class=\"fas fa-calendar-day\"></i> Daily: " + tLaunch1.toLocaleString(DateTime.DATETIME_MED) + " (in " + tLaunch1.diff(tThere).as('hours').toFixed(1) + " hours)");
                     } else {
-                        document.write("<br><i class=\"fas fa-calendar-day\"></i> Daily: " + tLaunch1.toLocaleString(DateTime.DATETIME_MED) + " (<span class='font-weight-bolder text-warning'>in " + tLaunch1.diff(tThere).as('hours').toFixed(1) + " hours</span>!)");
+                        document.write("<br><i class=\"fas fa-calendar-day\"></i> Daily: " + tLaunch1.toLocaleString(DateTime.DATETIME_MED) + " (<span class='font-weight-bolder text-warning'><i class='fas fa-rocket'></i> in " + tLaunch1.diff(tThere).as('hours').toFixed(1) + " hours</span>!)");
                     }
                     document.write("<br><i class=\"fas fa-calendar-week\"></i> Weekly: " + tLaunch2.toLocaleString(DateTime.DATETIME_MED) + " (in " + tLaunch2.diff(tThere).as('days').toFixed(2) + " days)")
                 </script>

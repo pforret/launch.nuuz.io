@@ -4,25 +4,19 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\WebsiteStoreRequest;
 use App\Website;
+use Illuminate\Contracts\View\View;
 use Illuminate\Http\Request;
+use Illuminate\Http\Response;
 
 class WebsiteController extends Controller
 {
-    /**
-     * @param \Illuminate\Http\Request $request
-     * @return \Illuminate\Http\Response
-     */
-    public function index(Request $request)
+    public function index(Request $request): View
     {
         $websites = Website::all();
 
         return view('website.index', compact('websites'));
     }
 
-    /**
-     * @param \App\Http\Requests\WebsiteStoreRequest $request
-     * @return \Illuminate\Http\Response
-     */
     public function store(WebsiteStoreRequest $request)
     {
         $website = Website::create($request->all());
