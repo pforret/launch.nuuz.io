@@ -13,3 +13,4 @@ Homestead.yaml
 gdeploy.sh
 npm-debug.log
 yarn-error.log
+/.gandi/
