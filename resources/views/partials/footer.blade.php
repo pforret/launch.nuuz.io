@@ -5,6 +5,7 @@
             <i class="fas fa-arrow-alt-circle-right"></i> <a href="https://nuuz.io">nuuz.io</a>
             <i class="fas fa-arrow-alt-circle-right"></i> <a href="https://toolstud.io">toolstud.io</a>
             <i class="fas fa-arrow-alt-circle-right"></i> <a href="https://blog.forret.com">blog.forret.com</a>
+            <i class="fas fa-code-branch"></i> <small>v @include('VERSION')</small>
         </div></div>
 </footer>
 <!-- Bootstrap core JS-->
